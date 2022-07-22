@@ -4,7 +4,7 @@ ruby '2.4.3'
 gem 'stripe'
 gem 'money-rails'
 gem 'devise'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.7', '>= 2.7.0'
 gem 'jquery-rails'
 gem 'pg', '~> 0.21'
 gem 'puma'
@@ -13,7 +13,7 @@ gem 'redis'
 gem 'pundit'
 gem 'figaro'
 gem 'cloudinary'
-gem 'carrierwave', '~> 1.2'
+gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'omniauth-facebook'
 gem 'postmark-rails'
 
@@ -28,7 +28,7 @@ gem 'uglifier'
 gem 'webpacker'
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.5.1'
   gem "letter_opener"
 end
 
@@ -37,5 +37,5 @@ group :development, :test do
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
 end

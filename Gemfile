@@ -22,7 +22,7 @@ gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
 gem 'font-awesome-sass', '~> 4.7'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
